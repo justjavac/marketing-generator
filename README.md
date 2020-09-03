@@ -1,5 +1,7 @@
 # 营销号生成器
 
+[![Build Status](https://github.com/justjavac/marketing-generator/workflows/ci/badge.svg?branch=master)](https://github.com/justjavac/marketing-generator/actions)
+
 什么是营销号生成器呢？
 
 > 营销号生成器是怎么回事呢？营销号相信大家都很熟悉，但是营销号生成器是怎么回事呢，下面就让小编带大家一起了解吧。
