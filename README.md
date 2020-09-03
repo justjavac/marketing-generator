@@ -12,6 +12,9 @@
 
 右上角可以复制，如果你生成了好的文案，可以去 [issue](https://github.com/justjavac/marketing-generator/issues) 里秀一下。
 
+- [右上角有复制按钮是怎么回事呢？](https://github.com/justjavac/marketing-generator/issues/1)
+- [复制文案去issue里秀是怎么回事呢？](https://github.com/justjavac/marketing-generator/issues/4)
+
 ![营销号生成器](./screen.png)
 
 ### License
