@@ -14,6 +14,19 @@
     .octicon-check {
       display: none;
     }
+
+    .v-fork-me {
+      position: fixed;
+      right: 0;
+      top: 0;
+      z-index: 999;
+    }
+
+    @media (max-width: 979px) {
+      .v-fork-me {
+        display: none;
+      }
+    }
   </style>
 </head>
 
@@ -91,6 +104,9 @@
       </div>
     </div>
   </div>
+  <a class="v-fork-me" href="https://github.com/justjavac/marketing-generator" target="_blank" rel="noopener">
+    <img src="./forkme_right_darkblue.png" alt="Fork me on GitHub">
+  </a>
   <script src="./app.js"></script>
 </body>
 
