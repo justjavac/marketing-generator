@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>营销号生成器</title>
+  <link href="https://cdn.bootcdn.net/ajax/libs/Primer/15.1.0/primer.min.css" rel="stylesheet" />
+  <style>
+    .Box-body {
+      height: 300px;
+    }
+
+    .octicon-check {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-lg px-3 my-5">
+    <h1>营销号生成器</h1>
+
+    <div class="col-sm-12 col-md-6 px-1 my-2 float-left">
+      <div class="Box box-shadow">
+        <div class="Box-header">
+          <h3 class="Box-title">
+            请输入
+          </h3>
+        </div>
+        <div class="Box-body">
+          <form id="form" autocomplete="off">
+            <div class="form-group">
+              <div class="form-group-header">
+                <label for="name">名字：</label>
+              </div>
+              <div class="form-group-body">
+                <input class="form-control input-hide-webkit-autofill" placeholder="1+1" id="name" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="form-group-header">
+                <label for="event">事件：</label>
+              </div>
+              <div class="form-group-body">
+                <input class="form-control input-hide-webkit-autofill" placeholder="等于3" id="event" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="form-group-header">
+                <label for="other">另一种说法：</label>
+              </div>
+              <div class="form-group-body">
+                <input class="form-control input-hide-webkit-autofill" placeholder="把两个1加在一起等于3" id="other" required />
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">生成</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 px-1 my-2 float-left">
+      <div class="Box box-shadow">
+        <div class="Box-header d-flex flex-items-center">
+          <h3 class="Box-title overflow-hidden flex-auto">
+            结果
+          </h3>
+          <button class="btn-octicon p-0" id="copy" title="复制">
+            <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16"
+              aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z">
+              </path>
+            </svg>
+            <svg class="octicon octicon-check hidden" width="12" height="16" viewBox="0 0 12 16" aria-hidden="true">
+              <path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z" />
+            </svg>
+          </button>
+        </div>
+        <div class="Box-body markdown-body" id="result">
+          <p>1+1等于3是怎么回事呢？1+1相信大家都很熟悉，但是1+1等于3是怎么回事呢，下面就让小编带大家一起了解吧。</p>
+          <p>1+1等于3，其实就是把两个1加在一起等于3，大家可能会很惊讶1+1怎么会等于3呢？但事实就是这样，小编也感到非常惊讶。</p>
+          <p>这就是关于1+1等于3的事情了，大家有什么想法呢，欢迎在评论区告诉小编一起讨论哦！</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+
+</html>
