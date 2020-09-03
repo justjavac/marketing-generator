@@ -10,6 +10,8 @@
 
 截图：
 
+右上角可以复制，如果你生成了好的文案，可以去 [issue](https://github.com/justjavac/marketing-generator/issues) 里秀一下。
+
 ![营销号生成器](./screen.png)
 
 ### License
